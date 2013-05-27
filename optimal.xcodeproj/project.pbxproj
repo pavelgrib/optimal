@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA98D9341753564900617F27 /* Givens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA98D9321753564900617F27 /* Givens.cpp */; };
+		DA98D9371753658700617F27 /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA98D9351753658700617F27 /* Helper.cpp */; };
+		DA98D93A1753798800617F27 /* MatrixTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA98D9381753798700617F27 /* MatrixTests.cpp */; };
+		DAE88B4217391842008BA257 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAE88B4117391842008BA257 /* main.cpp */; };
+		DAE88B4417391842008BA257 /* optimal.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE88B4317391842008BA257 /* optimal.1 */; };
+		DAF881491744295100023E7A /* zmq.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAF881481744295100023E7A /* zmq.1 */; };
+		DAF881501744299F00023E7A /* libzmq.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF8814D1744299F00023E7A /* libzmq.3.dylib */; };
+		DAF881511744299F00023E7A /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF8814E1744299F00023E7A /* libzmq.a */; };
+		DAF88155174429D000023E7A /* hwclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF88153174429D000023E7A /* hwclient.cpp */; };
+		DAF88156174429D000023E7A /* hwserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAF88154174429D000023E7A /* hwserver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAE88B3C17391842008BA257 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DAE88B4417391842008BA257 /* optimal.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAF881421744295100023E7A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DAF881491744295100023E7A /* zmq.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA98D9321753564900617F27 /* Givens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Givens.cpp; sourceTree = "<group>"; };
+		DA98D9331753564900617F27 /* Givens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Givens.h; sourceTree = "<group>"; };
+		DA98D9351753658700617F27 /* Helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		DA98D9361753658700617F27 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		DA98D9381753798700617F27 /* MatrixTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixTests.cpp; sourceTree = "<group>"; };
+		DA98D9391753798700617F27 /* MatrixTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixTests.h; sourceTree = "<group>"; };
+		DAE88B3E17391842008BA257 /* optimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = optimal; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE88B4117391842008BA257 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DAE88B4317391842008BA257 /* optimal.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = optimal.1; sourceTree = "<group>"; };
+		DAF881441744295100023E7A /* zmq */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zmq; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF881481744295100023E7A /* zmq.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = zmq.1; sourceTree = "<group>"; };
+		DAF8814D1744299F00023E7A /* libzmq.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzmq.3.dylib; path = ../../../../usr/local/Cellar/zeromq/3.2.2/lib/libzmq.3.dylib; sourceTree = "<group>"; };
+		DAF8814E1744299F00023E7A /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzmq.a; path = ../../../../usr/local/Cellar/zeromq/3.2.2/lib/libzmq.a; sourceTree = "<group>"; };
+		DAF88153174429D000023E7A /* hwclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hwclient.cpp; sourceTree = "<group>"; };
+		DAF88154174429D000023E7A /* hwserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hwserver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE88B3B17391842008BA257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF881411744295100023E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF881501744299F00023E7A /* libzmq.3.dylib in Frameworks */,
+				DAF881511744299F00023E7A /* libzmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE88B3517391842008BA257 = {
+			isa = PBXGroup;
+			children = (
+				DAF8814D1744299F00023E7A /* libzmq.3.dylib */,
+				DAF8814E1744299F00023E7A /* libzmq.a */,
+				DAE88B4017391842008BA257 /* optimal */,
+				DAF881451744295100023E7A /* zmq */,
+				DAE88B3F17391842008BA257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE88B3F17391842008BA257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE88B3E17391842008BA257 /* optimal */,
+				DAF881441744295100023E7A /* zmq */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE88B4017391842008BA257 /* optimal */ = {
+			isa = PBXGroup;
+			children = (
+				DAE88B4117391842008BA257 /* main.cpp */,
+				DAE88B4317391842008BA257 /* optimal.1 */,
+				DA98D9321753564900617F27 /* Givens.cpp */,
+				DA98D9331753564900617F27 /* Givens.h */,
+				DA98D9351753658700617F27 /* Helper.cpp */,
+				DA98D9361753658700617F27 /* Helper.h */,
+				DA98D9381753798700617F27 /* MatrixTests.cpp */,
+				DA98D9391753798700617F27 /* MatrixTests.h */,
+			);
+			path = optimal;
+			sourceTree = "<group>";
+		};
+		DAF881451744295100023E7A /* zmq */ = {
+			isa = PBXGroup;
+			children = (
+				DAF88153174429D000023E7A /* hwclient.cpp */,
+				DAF88154174429D000023E7A /* hwserver.cpp */,
+				DAF881481744295100023E7A /* zmq.1 */,
+			);
+			path = zmq;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE88B3D17391842008BA257 /* optimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE88B4717391842008BA257 /* Build configuration list for PBXNativeTarget "optimal" */;
+			buildPhases = (
+				DAE88B3A17391842008BA257 /* Sources */,
+				DAE88B3B17391842008BA257 /* Frameworks */,
+				DAE88B3C17391842008BA257 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = optimal;
+			productName = optimal;
+			productReference = DAE88B3E17391842008BA257 /* optimal */;
+			productType = "com.apple.product-type.tool";
+		};
+		DAF881431744295100023E7A /* zmq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF8814A1744295100023E7A /* Build configuration list for PBXNativeTarget "zmq" */;
+			buildPhases = (
+				DAF881401744295100023E7A /* Sources */,
+				DAF881411744295100023E7A /* Frameworks */,
+				DAF881421744295100023E7A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zmq;
+			productName = zmq;
+			productReference = DAF881441744295100023E7A /* zmq */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE88B3617391842008BA257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paul Gribelyuk";
+			};
+			buildConfigurationList = DAE88B3917391842008BA257 /* Build configuration list for PBXProject "optimal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAE88B3517391842008BA257;
+			productRefGroup = DAE88B3F17391842008BA257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE88B3D17391842008BA257 /* optimal */,
+				DAF881431744295100023E7A /* zmq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE88B3A17391842008BA257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE88B4217391842008BA257 /* main.cpp in Sources */,
+				DA98D9341753564900617F27 /* Givens.cpp in Sources */,
+				DA98D9371753658700617F27 /* Helper.cpp in Sources */,
+				DA98D93A1753798800617F27 /* MatrixTests.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF881401744295100023E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF88155174429D000023E7A /* hwclient.cpp in Sources */,
+				DAF88156174429D000023E7A /* hwserver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAE88B4517391842008BA257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAE88B4617391842008BA257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAE88B4817391842008BA257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAE88B4917391842008BA257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAF8814B1744295100023E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/zeromq/3.2.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF8814C1744295100023E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/zeromq/3.2.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE88B3917391842008BA257 /* Build configuration list for PBXProject "optimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE88B4517391842008BA257 /* Debug */,
+				DAE88B4617391842008BA257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE88B4717391842008BA257 /* Build configuration list for PBXNativeTarget "optimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE88B4817391842008BA257 /* Debug */,
+				DAE88B4917391842008BA257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF8814A1744295100023E7A /* Build configuration list for PBXNativeTarget "zmq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF8814B1744295100023E7A /* Debug */,
+				DAF8814C1744295100023E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE88B3617391842008BA257 /* Project object */;
+}
